@@ -10,4 +10,4 @@ This project is a Puzzle 15 game.
 
 ### Live App Link
 
-[App :](https://thunderous-starlight-1be5d7.netlify.app/)
+[Live App Link:](https://thunderous-starlight-1be5d7.netlify.app/)
