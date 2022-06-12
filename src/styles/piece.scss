@@ -1,0 +1,22 @@
+.piece {
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  .ArrowLeft {
+    transform: translateX(-100%);
+  }
+  .ArrowRight {
+    transform: translateX(100%);
+  }
+  .ArrowUp {
+    transform: translateY(-100%);
+  }
+  .ArrowDown {
+    transform: translateY(100%);
+  }
+
+  & > * {
+    transition: transform 0.5s;
+  }
+}
