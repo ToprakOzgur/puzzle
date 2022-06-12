@@ -1,1 +1,16 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  background-color: #bad1c0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  padding-top: 3rem;
+}
+h1 {
+  font-size: 3rem;
+}

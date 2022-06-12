@@ -11,7 +11,7 @@ const Puzzle = () => {
 
     return (
         <div>
-            <h3>{turn}</h3>
+            <h3>{`Move:  ${turn}`}</h3>
             <div className='puzzle'>
                 {imgOrder.map((image, index) => <Piece img={slicedImages[image - 1]} key={index} movementClass={index === moveAnimation[0] ? moveAnimation[1] : ""} />)}
             </div>
